@@ -1,0 +1,56 @@
+const quotes = {
+	
+	
+	
+	
+	
+	"a":'AGU2FE1XUT53U8G33X',
+	"b":'Y9EUL9XHUHO55MVR03',
+	"c":'QQY36BRDYLS12GWOVF',
+	"d":'D9KY6NW0GOXKOW9BH4',
+	"f":'XPBTZHAGEMKGNWXGM4',
+	"e":'V4B0FDU7SL5FQXAZFU',
+	"g":'K24DMOBMEPO20312OG',
+	"h":'WDKKO46EYPM94VRLM8',
+	"i":'R9Y2WR0GVPO3GVNGR7',
+	"j":'KZ2SH1CGLY1P84RDZA',
+	"k":'43TWOYT284XCWDS71L',
+	"l":'NT152ZTQT5VS9T5X3A',
+	"m":'CCS4WBWH4SQOGW7KG4',
+	"n":'OR4S3PV8MONTQDZGSZ',
+	"o":'MXWKSYSG42ZDZZBHSR',
+	"p":'5S7GPZOK0FY1ZUSS50',
+	"q":'TT42YKWGT20SXTW5NF',
+	"r":'ZFLKT7BDWXT29ZWX5G',
+	"s":'FQ3M9382288C02GAL5',
+	"t":'QZ13YPHMVFGOB51NEU',
+	"u":'GLRMG5DGDT3BAB21WG',
+	"v":'RD7GCED9DYEXXK7YFU',
+	"w":'KXFYNA5P5NMUF3MEGN',
+	"x":'BSG4GGWGZHL46ORTG6',
+	"y":'75HGH8V7262OKFP5E6',
+	"z":'UDDV0O3OVQOGE2SE9X',
+	"1":'OA6W1GCKK1BYT5SCNV',
+	"2":'4D1LTP9ELYFMA0B0QA',
+	"3":'G55QHDYM3GTVY9A0F6',
+	"4":'9PZF2845Q1TMNY1KL1',
+	"5":'4Q9ZVLEMBFTNVSCO0S',
+	"6":'2OBQ6BLFSP5MTB3F1F',
+	"7":'TGL9GRGA8D97H9NYU6',
+	"8":'UP1UL85CS9O8NGC3T7',
+	"9":'A5BYBX4NMMFRHPM94W',
+	"0":'9O81YTUK0P4S57WNG2',
+	
+   
+  
+  
+}
+
+document.getElementById('generate').addEventListener('click', () => {
+    let authors = Object.keys(quotes);
+    let author = authors[Math.floor(Math.random() * authors.length)];
+    let quote = quotes[author];
+
+    document.getElementById('quote').innerHTML = quote;
+    document.getElementById('author').innerHTML = author;
+});
