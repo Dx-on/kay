@@ -42,9 +42,9 @@ body{
 }
   
 button{
-    background: #fffff0;
+    background: #000000;
     color: white;
-    border: 1px solid #302b63;
+    border: 1px solid #000000;
     padding: 10px;
     outline: none;
 }
