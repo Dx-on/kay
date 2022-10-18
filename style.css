@@ -48,6 +48,9 @@ button{
     padding: 10px;
     outline: none;
 }
+
+.button {border-radius: 12px;}
+
 .quote-btn{
     padding-top: 25px;
 }
